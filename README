@@ -1,0 +1,15 @@
+SimpleTable
+===========
+
+requires haml and will_paginate
+
+
+Example
+=======
+
+More info and tests to come
+
+simple_table(@articles, [:name, ['Edit', %(link_to "Edit", edit_article_path(something))]],'edit_article_path(something)')
+
+
+Copyright (c) 2009 tangofoxtrot, released under the MIT license
